@@ -1,0 +1,2 @@
+- 👋 Hi, I’m Nidolex
+- 👀 Junior Python Developer
