@@ -23,46 +23,46 @@ dimple = [numberfind7, numberfind8, numberfind9]
 for q in simple:
     if q >= 11:
         numberfindall += 1000000000
-    elif q >= 10:
+    elif q == 10:
         numberfindall += 10000000
-    elif q >= 9:
+    elif q == 9:
         numberfindall += 1000000
-    elif q >= 8:
+    elif q == 8:
         numberfindall += 25000
-    elif q >= 7:
+    elif q == 7:
         numberfindall += 10000
-    elif q >= 6:
+    elif q == 6:
         numberfindall += 5000
-    elif q >= 5:
+    elif q == 5:
         numberfindall += 2500
-    elif q >= 4:
+    elif q == 4:
         numberfindall += 1000
-    elif q >= 3:
+    elif q == 3:
         numberfindall += 250
-    elif q >= 2:
+    elif q == 2:
         numberfindall += 100
 
 
 for z in dimple:
     if z >= 11:
         numberfindall += 100000000000
-    elif z >= 10:
+    elif z == 10:
         numberfindall += 100000000
-    elif z >= 9:
+    elif z == 9:
         numberfindall += 1000000
-    elif z >= 8:
+    elif z == 8:
         numberfindall += 25000
-    elif z >= 7:
+    elif z == 7:
         numberfindall += 15000
-    elif z >= 6:
+    elif z == 6:
         numberfindall += 5000
-    elif z >= 5:
+    elif z == 5:
         numberfindall += 2500
-    elif z >= 4:
+    elif z == 4:
         numberfindall += 1000
-    elif z >= 3:
+    elif z == 3:
         numberfindall += 250
-    elif z >= 2:
+    elif z == 2:
         numberfindall += 150
 
 print("Количество баллов за 1 этап: " + str(numberfindall))
