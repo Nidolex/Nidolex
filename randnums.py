@@ -13,4 +13,4 @@ def randomizer():
         if int(numb1) == int(numb2):
             print("Количество попыток: " + str(score))
             return
-print(randomizer())
+randomizer()
